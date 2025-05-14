@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Kingdom | Home</title>
+    <meta name="description" content="Explore the fascinating world of animals, their classifications, and ecosystems">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1>Animal Kingdom</h1>
+            <p>Discover the wonders of wildlife</p>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Welcome to the Animal Kingdom</h2>
+            <p>Explore the diversity of life on Earth</p>
+            <button id="exploreBtn">Start Exploring</button>
+        </section>
+
+        <section class="featured-animals">
+            <h2>Featured Animals</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active">
+                        <img src="images/lion.jfif" alt="African Lion">
+                        <div class="slide-caption">
+                            <h3>African Lion</h3>
+                            <p>The king of the jungle</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/dolphin.jfif" alt="Bottlenose Dolphin">
+                        <div class="slide-caption">
+                            <h3>Bottlenose Dolphin</h3>
+                            <p>Highly intelligent marine mammals</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/eagle.jfif" alt="Bald Eagle">
+                        <div class="slide-caption">
+                            <h3>Bald Eagle</h3>
+                            <p>Majestic bird of prey</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-btn prev" onclick="prevSlide()">❮</button>
+                <button class="slider-btn next" onclick="nextSlide()">❯</button>
+            </div>
+        </section>
+
+        <section class="animal-classes">
+            <h2>Animal Classifications</h2>
+            <article class="classification-card">
+                <h3>Mammals</h3>
+                <p>Warm-blooded vertebrates with hair or fur that produce milk to feed their young.</p>
+                <a href="#" class="read-more">Learn More</a>
+            </article>
+            <article class="classification-card">
+                <h3>Birds</h3>
+                <p>Feathered, winged, egg-laying vertebrates with beaks and lightweight skeletons.</p>
+                <a href="#" class="read-more">Learn More</a>
+            </article>
+            <article class="classification-card">
+                <h3>Reptiles</h3>
+                <p>Cold-blooded vertebrates with scaly skin that typically lay soft-shelled eggs.</p>
+                <a href="#" class="read-more">Learn More</a>
+            </article>
+        </section>
+
+        <aside class="newsletter">
+            <h3>Subscribe to Our Newsletter</h3>
+            <form id="newsletterForm">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </aside>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2023 Animal Kingdom Blog. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
